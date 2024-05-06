@@ -1,0 +1,108 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#date {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#category {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submitButton {
+    padding: 8px 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#taskLists {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style each category list differently */
+#academicsList {
+    background-color: #f1f8ff; /* Light blue */
+    border: 1px solid #cce5ff; /* Light border */
+}
+
+#sportsList {
+    background-color: #e8ffe8; /* Light green */
+    border: 1px solid #ccffcc; /* Light border */
+}
+
+#healthList {
+    background-color: #ffe0cc; /* Light orange */
+    border: 1px solid #ffcc99; /* Light border */
+}
+
+#shoppingList {
+    background-color: #f5f5f5; /* Light gray */
+    border: 1px solid #cccccc; /* Light border */
+}
+
+#personalList {
+    background-color: #ffffcc; /* Light yellow */
+    border: 1px solid #ffff99; /* Light border */
+}
+
+#workList {
+    background-color: #f2f2f2; /* Light gray */
+    border: 1px solid #d9d9d9; /* Light border */
+}
+
+#othersList {
+    background-color: #f9f9f9; /* Light gray */
+    border: 1px solid #e6e6e6; /* Light border */
+}
